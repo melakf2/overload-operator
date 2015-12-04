@@ -114,6 +114,10 @@ const int & Polynomial :: operator[] (int zevel)const
 {
 	return zevel;
 }
+
+
+//=========================friend member function==========================//
+
 ostream & operator<<(ostream & output,const Polynomial &polynomial)
 {
 	for (int i = 0; i < polynomial.size; i++)
@@ -137,14 +141,10 @@ istream &  operator>>(istream  & input, Polynomial &polynomial)
 }
 Polynomial &operator+(Polynomial & p1,Polynomial & p2)
 {
-	int new_size= (p1.size>p2.size)?p1.size:p2.size;
-	Polynomial sum_poly(new_size);
-	
-	for ( int i = 0; i <= p1.size; i++ )
-		sum_poly.array_coefficient[i] += p1.array_coefficient[i];
-	for ( int i = 0; i <= p2.size; i++ ) 
-		sum_poly.array_coefficient[i] += p2.array_coefficient[i];
-    return sum_poly;
+	return p1;
 }
-Polynomial &operator-(Polynomial &,Polynomial&);
+Polynomial &operator-(Polynomial & p1,Polynomial& p2){
+ 
+	return p1;
+}
 
