@@ -1,28 +1,11 @@
 $ git status
-    [...]
-    # Untracked files:
-    [...]
-    #       Poly.opensdf
-    #       Poly.sdf
-    #       Poly.sln
-    #       Poly.v11.suo
-    #       Poly/Poly.vcxproj
-    #       Poly/Poly.vcxproj.filters
-    [...]
-    $ cat .git/info/exclude
-    # ignore objects and archives, anywhere in the tree.
-    *.[oa]
-    $ cat Documentation/.gitignore
-    # ignore generated html files,
-    *.html
-    *.
-    # except foo.html which is maintained by hand
-    !foo.html
-    #OS junk files
-[Tt]humbs.db
-*.DS_Store
-
 #Visual Studio files
+#Poly.opensdf
+#Poly.sdf
+#Poly.sln
+#Poly.v11.suo
+#Poly/Poly.vcxproj
+#Poly/Poly.vcxproj.filters
 *.[Oo]bj
 *.user
 *.aps
