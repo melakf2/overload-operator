@@ -5,6 +5,7 @@ $ git status
     #       Poly.opensdf
     #       Poly.sdf
     #       Poly.sln
+    #       Poly.v11.suo
     #       Poly/Poly.vcxproj
     #       Poly/Poly.vcxproj.filters
     [...]
@@ -14,6 +15,57 @@ $ git status
     $ cat Documentation/.gitignore
     # ignore generated html files,
     *.html
+    *.
     # except foo.html which is maintained by hand
     !foo.html
-    
+    #OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.opensdf
+*.v11.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.pyc
+*.xml
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$
