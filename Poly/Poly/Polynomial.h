@@ -1,5 +1,8 @@
 #pragma once
+<<<<<<< HEAD
 #pragma once
+=======
+>>>>>>> db4acc44e24f790379d122bc86d264be4ee195b9
 #ifndef POLYNOMIAL_H
 #define POYNOMIAL_H
 #include <iostream>
